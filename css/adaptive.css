@@ -23,9 +23,13 @@
   }
 }
 @media (max-width: 785px) {
+  #product {
+    padding-top: 60px;
+  }
   .product {
     justify-content: center;
   }
+
   .prod-blog {
     flex-direction: column;
     justify-content: center;
@@ -38,7 +42,11 @@
   }
 }
 @media (max-width: 925px) {
+  #customers {
+    padding-block: 10px;
+  }
   .custom {
+    padding-block: 20px;
     flex-direction: column-reverse;
     justify-content: center;
     gap: 24px;
@@ -63,5 +71,57 @@
     justify-content: center;
     gap: 24px;
   }
+}
+@media (max-width: 1050px) {
+  .proces {
+    flex-direction: column;
+  }
+  .proces-commit {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .commit-box:nth-child(2) {
+    flex-direction: column-reverse;
+  }
   
+}
+
+@media (max-width: 850px) {
+  .proces img {
+    width: 100%;
+    max-width: 78px;
+    min-height: 78px;
+  }
+  .commit-box {
+    gap: 15px;
+  }
+}
+@media (max-width: 1130px) {
+    .strateg-blod {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .blod-box {
+        gap: 12px;
+    }
+    
+}
+@media (max-width: 1070px) {
+
+    .price {
+        flex-direction: column;
+        gap: 22px;
+    }
+    
+}
+@media (max-width:1000px) {
+    .say {
+        flex-direction: column;
+        gap: 18px;
+    }
+    
+}
+@media (max-width:) {
+    orozbekov amantai japarovich
 }
